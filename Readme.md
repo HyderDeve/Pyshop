@@ -109,6 +109,9 @@ Notes:
   python manage.py collectstatic
   ```
 
+## .env example 
+- SECRET_KEY = your_secret_key_from_settings.py
+
 ## Environment & security
 
 - Do not hardcode SECRET_KEY or sensitive credentials in `settings.py`. Use environment variables or a secrets manager.
